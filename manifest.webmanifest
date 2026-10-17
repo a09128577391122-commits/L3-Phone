@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "星期八郵局：錯寄事件簿",
+  "short_name": "星期八郵局",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#253e50",
+  "theme_color": "#253e50",
+  "icons": [
+    {
+      "src": "assets/icons/app-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
