@@ -67,7 +67,7 @@
         } else if (e.key === 'Escape') { e.preventDefault(); if(this.modal) this.resume(); else this.pause(); }
       });
       this.bind(document,'visibilitychange',() => { if (document.hidden) this.pause('遊戲已暫停。準備好再繼續。'); });
-      this.bind(window,'blur',() => this.pause('遊戲已暫停。準備好再繼續。'));
+      this.bind(window,'blur',() => {root.RunnerAudio.mixer.suspend();this.pause('遊戲已暫停。準備好再繼續。');});
       this.bind(window,'mobileorientation',e=>{if(e.detail.portrait)this.pause('手機橫放後，按繼續奔跑。');});
     }
     event(type,data) {
