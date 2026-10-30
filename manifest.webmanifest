@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "星期八郵局：錯寄事件簿",
-  "short_name": "星期八郵局",
+  "name": "一日郵差",
+  "short_name": "一日郵差",
   "lang": "zh-Hant",
   "start_url": "./",
   "scope": "./",
